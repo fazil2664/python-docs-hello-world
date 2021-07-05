@@ -20,7 +20,7 @@ jobs:
     - name: Set up Python version
       uses: actions/setup-python@v1
       with:
-        python-version: '3.8'
+        python-version: '3.9'
 
     - name: Create and start virtual environment
       run: |
@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'kingfisher'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_a5df8a19973d41ea8eb24ca5797dd44b }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_1d09d7e6cc8a4604b382e066c99d48cd }}
