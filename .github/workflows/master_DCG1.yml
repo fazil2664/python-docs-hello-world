@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'DCG1'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_261ae2c4cd8d4668ac0edd3ccf1b9dd2 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_d9b9930152294edaad18ac92e4433f5d }}
